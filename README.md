@@ -19,3 +19,12 @@ Embark on a journey into the realm of advanced robotics with our 6-degree-of-fre
 ## Applications and Advancements:
 This project finds applications in diverse domains such as manufacturing, automation, research, and education. As you explore the possibilities of this robotic system, consider venturing into trajectory planning, advanced control algorithms, and sensor integration for even greater automation and adaptability.
 
+## Video:
+
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ZxTHJg68jb0" target="_blank">
+    <img src="https://img.youtube.com/vi/ZxTHJg68jb0/0.jpg" alt="Video Thumbnail" width="650" height="480">
+  </a>
+</p>
+
