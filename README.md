@@ -1,4 +1,4 @@
-# Project Title: Versatile 6 DOF Articulated Robot with Kinematics
+# Project Title: 6 DOF Articulated Robot with Kinematics
 
 ## Description:
 Embark on a journey into the realm of advanced robotics with our 6-degree-of-freedom articulated robot. This project showcases an intricately designed robotic system capable of versatile movements and precise positioning. With a payload capacity of 500 grams, the robot combines mechanics and software seamlessly for optimal performance.
@@ -19,6 +19,12 @@ Embark on a journey into the realm of advanced robotics with our 6-degree-of-fre
 ## Applications and Advancements:
 This project finds applications in diverse domains such as manufacturing, automation, research, and education. As you explore the possibilities of this robotic system, consider venturing into trajectory planning, advanced control algorithms, and sensor integration for even greater automation and adaptability.
 
+</br>
+
+## Cartesian vs. Joint Space Trajectories:
+<p align="center"> <img src="Robotic_arm.gif" alt="Kinematics" width="700"></p>  
+
+
 ## Video:
 
 
@@ -27,7 +33,6 @@ This project finds applications in diverse domains such as manufacturing, automa
     <img src="https://img.youtube.com/vi/ZxTHJg68jb0/0.jpg" alt="Video Thumbnail" width="650" height="480">
   </a>
 </p>
-
 
 
 
