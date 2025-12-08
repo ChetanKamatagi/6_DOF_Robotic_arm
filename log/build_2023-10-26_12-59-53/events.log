@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.001578] (custom_messages) JobQueued: {'identifier': 'custom_messages', 'dependencies': OrderedDict()}
+[0.002148] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002439] (custom_messages) JobStarted: {'identifier': 'custom_messages'}
+[0.099572] (-) TimerEvent: {}
+[0.202671] (-) TimerEvent: {}
+[0.303824] (-) TimerEvent: {}
+[0.365598] (robot) JobStarted: {'identifier': 'robot'}
+[0.404206] (-) TimerEvent: {}
+[0.505328] (-) TimerEvent: {}
+[0.606542] (-) TimerEvent: {}
+[0.707634] (-) TimerEvent: {}
+[0.798059] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'cmake'}
+[0.799220] (custom_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/sdp2024/6dof_arm/src/custom_messages', '-DCMAKE_INSTALL_PREFIX=/home/sdp2024/6dof_arm/install/custom_messages'], 'cwd': '/home/sdp2024/6dof_arm/build/custom_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sdp2024'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdp2024/6dof_arm/install/custom_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sdp2024'), ('OLDPWD', '/home/sdp2024/6dof_arm/src/robot/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sdp2024/6dof_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdp2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sdp2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sdp2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sdp2024:@/tmp/.ICE-unix/1171,unix/sdp2024:/tmp/.ICE-unix/1171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dba4b30_70c5_488f_8a83_8d79db04460e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRFFD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/robot:/home/sdp2024/6dof_arm/install/custom_messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sdp2024/6dof_arm/build/custom_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/custom_messages:/home/sdp2024/6dof_arm/install/robot:/opt/ros/humble')]), 'shell': False}
+[0.815376] (-) TimerEvent: {}
+[0.916936] (-) TimerEvent: {}
+[1.017933] (-) TimerEvent: {}
+[1.120071] (-) TimerEvent: {}
+[1.221044] (-) TimerEvent: {}
+[1.321903] (-) TimerEvent: {}
+[1.423058] (-) TimerEvent: {}
+[1.455380] (custom_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.523267] (-) TimerEvent: {}
+[1.623994] (-) TimerEvent: {}
+[1.725436] (-) TimerEvent: {}
+[1.826212] (-) TimerEvent: {}
+[1.926886] (-) TimerEvent: {}
+[2.027556] (-) TimerEvent: {}
+[2.128367] (-) TimerEvent: {}
+[2.204103] (custom_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.228587] (-) TimerEvent: {}
+[2.243847] (custom_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.328934] (-) TimerEvent: {}
+[2.430691] (-) TimerEvent: {}
+[2.533319] (-) TimerEvent: {}
+[2.635247] (-) TimerEvent: {}
+[2.667641] (custom_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.690124] (custom_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.692047] (custom_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.695481] (custom_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.713452] (custom_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.735505] (-) TimerEvent: {}
+[2.837197] (-) TimerEvent: {}
+[2.941567] (-) TimerEvent: {}
+[3.042357] (-) TimerEvent: {}
+[3.135957] (custom_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.142517] (-) TimerEvent: {}
+[3.163819] (custom_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.165228] (custom_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.167242] (custom_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.204130] (custom_messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.242738] (-) TimerEvent: {}
+[3.343972] (-) TimerEvent: {}
+[3.444822] (-) TimerEvent: {}
+[3.546824] (-) TimerEvent: {}
+[3.648196] (-) TimerEvent: {}
+[3.749360] (-) TimerEvent: {}
+[3.850748] (-) TimerEvent: {}
+[3.952124] (-) TimerEvent: {}
+[4.054144] (-) TimerEvent: {}
+[4.157626] (-) TimerEvent: {}
+[4.256591] (custom_messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.257788] (-) TimerEvent: {}
+[4.358734] (-) TimerEvent: {}
+[4.459899] (-) TimerEvent: {}
+[4.560645] (-) TimerEvent: {}
+[4.661503] (-) TimerEvent: {}
+[4.762991] (-) TimerEvent: {}
+[4.864106] (-) TimerEvent: {}
+[4.952348] (custom_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.964388] (-) TimerEvent: {}
+[5.065572] (-) TimerEvent: {}
+[5.166775] (-) TimerEvent: {}
+[5.199172] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/sdp2024/6dof_arm/build/robot/build', 'install', '--record', '/home/sdp2024/6dof_arm/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/sdp2024/6dof_arm/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sdp2024', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sdp2024/6dof_arm/install/custom_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sdp2024', 'OLDPWD': '/home/sdp2024/6dof_arm/src/robot/robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1564', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sdp2024/6dof_arm/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sdp2024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sdp2024', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sdp2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sdp2024:@/tmp/.ICE-unix/1171,unix/sdp2024:/tmp/.ICE-unix/1171', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9dba4b30_70c5_488f_8a83_8d79db04460e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GRFFD2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sdp2024/6dof_arm/install/robot:/home/sdp2024/6dof_arm/install/custom_messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sdp2024/6dof_arm/build/robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sdp2024/6dof_arm/install/custom_messages'}, 'shell': False}
+[5.266985] (-) TimerEvent: {}
+[5.368479] (-) TimerEvent: {}
+[5.470068] (-) TimerEvent: {}
+[5.562199] (custom_messages) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.570207] (-) TimerEvent: {}
+[5.671080] (-) TimerEvent: {}
+[5.771903] (-) TimerEvent: {}
+[5.872706] (-) TimerEvent: {}
+[5.922184] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.972399] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.973027] (-) TimerEvent: {}
+[6.039024] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.073238] (-) TimerEvent: {}
+[6.128211] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.173391] (-) TimerEvent: {}
+[6.260763] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.273539] (-) TimerEvent: {}
+[6.374278] (-) TimerEvent: {}
+[6.475094] (-) TimerEvent: {}
+[6.576126] (-) TimerEvent: {}
+[6.676968] (-) TimerEvent: {}
+[6.689633] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[6.691658] (robot) StdoutLine: {'line': b'creating ../../build/robot/robot.egg-info\n'}
+[6.692615] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[6.693921] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[6.694639] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[6.695234] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[6.695858] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[6.696844] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.708911] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.712759] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.714255] (robot) StdoutLine: {'line': b'running build\n'}
+[6.715122] (robot) StdoutLine: {'line': b'running build_py\n'}
+[6.715924] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/build/robot/build\n'}
+[6.716555] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/build/robot/build/lib\n'}
+[6.717445] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.718319] (robot) StdoutLine: {'line': b'copying robot/gui3.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.718878] (robot) StdoutLine: {'line': b'copying robot/gui2.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.719575] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.720386] (robot) StdoutLine: {'line': b'copying robot/sub_n.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.721234] (robot) StdoutLine: {'line': b'copying robot/gui.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.722059] (robot) StdoutLine: {'line': b'copying robot/cam.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.722565] (robot) StdoutLine: {'line': b'copying robot/sub.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.723353] (robot) StdoutLine: {'line': b'copying robot/pub.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.724196] (robot) StdoutLine: {'line': b'copying robot/ikine.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.724747] (robot) StdoutLine: {'line': b'copying robot/ik.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot\n'}
+[6.725520] (robot) StdoutLine: {'line': b'running install\n'}
+[6.727062] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[6.730888] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.731893] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui3.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.732933] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui2.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.733802] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/__init__.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.736439] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub_n.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.740267] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.742156] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/cam.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.743688] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.744595] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/pub.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.745416] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/ikine.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.746264] (robot) StdoutLine: {'line': b'copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/ik.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot\n'}
+[6.748997] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui3.py to gui3.cpython-310.pyc\n'}
+[6.755000] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui2.py to gui2.cpython-310.pyc\n'}
+[6.763731] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc\n'}
+[6.764970] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub_n.py to sub_n.cpython-310.pyc\n'}
+[6.769915] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui.py to gui.cpython-310.pyc\n'}
+[6.772822] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/cam.py to cam.cpython-310.pyc\n'}
+[6.774354] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub.py to sub.cpython-310.pyc\n'}
+[6.776792] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/pub.py to pub.cpython-310.pyc\n'}
+[6.777426] (-) TimerEvent: {}
+[6.780035] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/ikine.py to ikine.cpython-310.pyc\n'}
+[6.783842] (robot) StdoutLine: {'line': b'byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/ik.py to ik.cpython-310.pyc\n'}
+[6.787121] (robot) StdoutLine: {'line': b'running install_data\n'}
+[6.789727] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/install/robot/share/ament_index\n'}
+[6.790552] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index\n'}
+[6.791101] (robot) StdoutLine: {'line': b'creating /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index/packages\n'}
+[6.791684] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index/packages\n'}
+[6.792246] (robot) StdoutLine: {'line': b'copying package.xml -> /home/sdp2024/6dof_arm/install/robot/share/robot\n'}
+[6.792662] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.799313] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[6.809566] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.831552] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.877770] (-) TimerEvent: {}
+[6.897160] (robot) StdoutLine: {'line': b'Installing gui script to /home/sdp2024/6dof_arm/install/robot/lib/robot\n'}
+[6.897954] (robot) StdoutLine: {'line': b'Installing ikine script to /home/sdp2024/6dof_arm/install/robot/lib/robot\n'}
+[6.898569] (robot) StdoutLine: {'line': b'Installing pub script to /home/sdp2024/6dof_arm/install/robot/lib/robot\n'}
+[6.899198] (robot) StdoutLine: {'line': b'Installing sub_n script to /home/sdp2024/6dof_arm/install/robot/lib/robot\n'}
+[6.901391] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/sdp2024/6dof_arm/build/robot/install.log'\n"}
+[6.978072] (-) TimerEvent: {}
+[7.080138] (-) TimerEvent: {}
+[7.089937] (robot) CommandEnded: {'returncode': 0}
+[7.180344] (-) TimerEvent: {}
+[7.282603] (-) TimerEvent: {}
+[7.385450] (-) TimerEvent: {}
+[7.487158] (-) TimerEvent: {}
+[7.494132] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[7.587354] (-) TimerEvent: {}
+[7.688094] (-) TimerEvent: {}
+[7.788877] (-) TimerEvent: {}
+[7.889695] (-) TimerEvent: {}
+[7.990509] (-) TimerEvent: {}
+[8.002665] (custom_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.090657] (-) TimerEvent: {}
+[8.191368] (-) TimerEvent: {}
+[8.292547] (-) TimerEvent: {}
+[8.393779] (-) TimerEvent: {}
+[8.494558] (-) TimerEvent: {}
+[8.595311] (-) TimerEvent: {}
+[8.696179] (-) TimerEvent: {}
+[8.796890] (-) TimerEvent: {}
+[8.897853] (-) TimerEvent: {}
+[8.999191] (-) TimerEvent: {}
+[9.099882] (-) TimerEvent: {}
+[9.200716] (-) TimerEvent: {}
+[9.301611] (-) TimerEvent: {}
+[9.402383] (-) TimerEvent: {}
+[9.503391] (-) TimerEvent: {}
+[9.607211] (-) TimerEvent: {}
+[9.610996] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.707424] (-) TimerEvent: {}
+[9.808190] (-) TimerEvent: {}
+[9.909130] (-) TimerEvent: {}
+[10.009917] (-) TimerEvent: {}
+[10.110742] (-) TimerEvent: {}
+[10.212001] (-) TimerEvent: {}
+[10.213755] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.312197] (-) TimerEvent: {}
+[10.333308] (custom_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.356027] (custom_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.412362] (-) TimerEvent: {}
+[10.493894] (custom_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.494850] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.495403] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.495816] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[10.512572] (-) TimerEvent: {}
+[10.609849] (custom_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.612810] (-) TimerEvent: {}
+[10.713552] (-) TimerEvent: {}
+[10.797950] (custom_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.808295] (custom_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.813725] (-) TimerEvent: {}
+[10.860645] (custom_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.913921] (-) TimerEvent: {}
+[11.014883] (-) TimerEvent: {}
+[11.035738] (custom_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[11.050741] (custom_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/sdp2024/6dof_arm/build/custom_messages\n'}
+[11.101385] (custom_messages) CommandEnded: {'returncode': 0}
+[11.103421] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'build'}
+[11.105916] (custom_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdp2024/6dof_arm/build/custom_messages', '--', '-j4', '-l4'], 'cwd': '/home/sdp2024/6dof_arm/build/custom_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sdp2024'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdp2024/6dof_arm/install/custom_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sdp2024'), ('OLDPWD', '/home/sdp2024/6dof_arm/src/robot/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sdp2024/6dof_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdp2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sdp2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sdp2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sdp2024:@/tmp/.ICE-unix/1171,unix/sdp2024:/tmp/.ICE-unix/1171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dba4b30_70c5_488f_8a83_8d79db04460e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRFFD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/robot:/home/sdp2024/6dof_arm/install/custom_messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sdp2024/6dof_arm/build/custom_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/custom_messages:/home/sdp2024/6dof_arm/install/robot:/opt/ros/humble')]), 'shell': False}
+[11.115043] (-) TimerEvent: {}
+[11.215851] (-) TimerEvent: {}
+[11.301541] (custom_messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.316090] (-) TimerEvent: {}
+[11.349995] (custom_messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.385947] (custom_messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_custom_messages\n'}
+[11.416303] (-) TimerEvent: {}
+[11.517560] (-) TimerEvent: {}
+[11.618952] (-) TimerEvent: {}
+[11.720224] (-) TimerEvent: {}
+[11.821213] (-) TimerEvent: {}
+[11.922077] (-) TimerEvent: {}
+[12.022885] (-) TimerEvent: {}
+[12.123701] (-) TimerEvent: {}
+[12.224523] (-) TimerEvent: {}
+[12.325319] (-) TimerEvent: {}
+[12.426064] (-) TimerEvent: {}
+[12.526825] (-) TimerEvent: {}
+[12.627573] (-) TimerEvent: {}
+[12.728302] (-) TimerEvent: {}
+[12.829114] (-) TimerEvent: {}
+[12.930030] (-) TimerEvent: {}
+[13.036544] (-) TimerEvent: {}
+[13.140305] (-) TimerEvent: {}
+[13.243094] (-) TimerEvent: {}
+[13.344894] (-) TimerEvent: {}
+[13.392451] (custom_messages) StdoutLine: {'line': b'running egg_info\n'}
+[13.398702] (custom_messages) StdoutLine: {'line': b'creating custom_messages.egg-info\n'}
+[13.401575] (custom_messages) StdoutLine: {'line': b'writing custom_messages.egg-info/PKG-INFO\n'}
+[13.404743] (custom_messages) StdoutLine: {'line': b'writing dependency_links to custom_messages.egg-info/dependency_links.txt\n'}
+[13.408076] (custom_messages) StdoutLine: {'line': b'writing top-level names to custom_messages.egg-info/top_level.txt\n'}
+[13.411007] (custom_messages) StdoutLine: {'line': b"writing manifest file 'custom_messages.egg-info/SOURCES.txt'\n"}
+[13.426438] (custom_messages) StdoutLine: {'line': b"reading manifest file 'custom_messages.egg-info/SOURCES.txt'\n"}
+[13.429677] (custom_messages) StdoutLine: {'line': b"writing manifest file 'custom_messages.egg-info/SOURCES.txt'\n"}
+[13.445685] (-) TimerEvent: {}
+[13.466606] (custom_messages) StdoutLine: {'line': b'[  5%] Built target custom_messages__cpp\n'}
+[13.485519] (custom_messages) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/posvel__functions.c.o\x1b[0m\n'}
+[13.491833] (custom_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[13.553609] (-) TimerEvent: {}
+[13.572378] (custom_messages) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.639662] (custom_messages) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_custom_messages_egg\n'}
+[13.657039] (-) TimerEvent: {}
+[13.706845] (custom_messages) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.757284] (-) TimerEvent: {}
+[13.858717] (-) TimerEvent: {}
+[13.960376] (-) TimerEvent: {}
+[13.981640] (custom_messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.042129] (custom_messages) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_messages__rosidl_generator_c.so\x1b[0m\n'}
+[14.060617] (-) TimerEvent: {}
+[14.162725] (-) TimerEvent: {}
+[14.265198] (-) TimerEvent: {}
+[14.366738] (-) TimerEvent: {}
+[14.422809] (custom_messages) StdoutLine: {'line': b'[ 20%] Built target custom_messages__rosidl_generator_c\n'}
+[14.467114] (-) TimerEvent: {}
+[14.491057] (custom_messages) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.567324] (-) TimerEvent: {}
+[14.668710] (-) TimerEvent: {}
+[14.770358] (-) TimerEvent: {}
+[14.871788] (-) TimerEvent: {}
+[14.973314] (-) TimerEvent: {}
+[15.074763] (-) TimerEvent: {}
+[15.176347] (-) TimerEvent: {}
+[15.277796] (-) TimerEvent: {}
+[15.379204] (-) TimerEvent: {}
+[15.480593] (-) TimerEvent: {}
+[15.524032] (custom_messages) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/msg/posvel__type_support.cpp.o\x1b[0m\n'}
+[15.580982] (-) TimerEvent: {}
+[15.682969] (-) TimerEvent: {}
+[15.783902] (-) TimerEvent: {}
+[15.885272] (-) TimerEvent: {}
+[15.938051] (custom_messages) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/posvel__type_support.cpp.o\x1b[0m\n'}
+[15.985587] (-) TimerEvent: {}
+[16.087080] (-) TimerEvent: {}
+[16.091414] (custom_messages) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/msg/detail/posvel__type_support.cpp.o\x1b[0m\n'}
+[16.187325] (-) TimerEvent: {}
+[16.288618] (-) TimerEvent: {}
+[16.389654] (-) TimerEvent: {}
+[16.492035] (-) TimerEvent: {}
+[16.593609] (-) TimerEvent: {}
+[16.715813] (-) TimerEvent: {}
+[16.800316] (custom_messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/msg/detail/posvel__type_support_c.cpp.o\x1b[0m\n'}
+[16.816095] (-) TimerEvent: {}
+[16.917689] (-) TimerEvent: {}
+[17.019175] (-) TimerEvent: {}
+[17.120866] (-) TimerEvent: {}
+[17.222547] (-) TimerEvent: {}
+[17.324248] (-) TimerEvent: {}
+[17.425934] (-) TimerEvent: {}
+[17.527515] (-) TimerEvent: {}
+[17.629273] (-) TimerEvent: {}
+[17.731289] (-) TimerEvent: {}
+[17.832994] (-) TimerEvent: {}
+[17.934599] (-) TimerEvent: {}
+[18.036340] (-) TimerEvent: {}
+[18.138110] (-) TimerEvent: {}
+[18.181618] (custom_messages) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[18.238477] (-) TimerEvent: {}
+[18.340414] (-) TimerEvent: {}
+[18.442172] (-) TimerEvent: {}
+[18.544352] (-) TimerEvent: {}
+[18.646196] (-) TimerEvent: {}
+[18.747852] (-) TimerEvent: {}
+[18.849542] (-) TimerEvent: {}
+[18.927612] (custom_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[18.949842] (-) TimerEvent: {}
+[19.051300] (-) TimerEvent: {}
+[19.058269] (custom_messages) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.151782] (-) TimerEvent: {}
+[19.253735] (-) TimerEvent: {}
+[19.354890] (-) TimerEvent: {}
+[19.456349] (-) TimerEvent: {}
+[19.558005] (-) TimerEvent: {}
+[19.659656] (-) TimerEvent: {}
+[19.761607] (-) TimerEvent: {}
+[19.858316] (custom_messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[19.862055] (-) TimerEvent: {}
+[19.963802] (-) TimerEvent: {}
+[20.065426] (-) TimerEvent: {}
+[20.167278] (-) TimerEvent: {}
+[20.222855] (custom_messages) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.267661] (-) TimerEvent: {}
+[20.368887] (-) TimerEvent: {}
+[20.471093] (-) TimerEvent: {}
+[20.539431] (custom_messages) StdoutLine: {'line': b'[ 46%] Built target custom_messages__rosidl_typesupport_cpp\n'}
+[20.571441] (-) TimerEvent: {}
+[20.605571] (custom_messages) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[20.671778] (-) TimerEvent: {}
+[20.772956] (-) TimerEvent: {}
+[20.874200] (-) TimerEvent: {}
+[20.976336] (-) TimerEvent: {}
+[21.077778] (-) TimerEvent: {}
+[21.178776] (-) TimerEvent: {}
+[21.279937] (-) TimerEvent: {}
+[21.381843] (-) TimerEvent: {}
+[21.483485] (-) TimerEvent: {}
+[21.585207] (-) TimerEvent: {}
+[21.686777] (-) TimerEvent: {}
+[21.787861] (-) TimerEvent: {}
+[21.888987] (-) TimerEvent: {}
+[21.991110] (-) TimerEvent: {}
+[22.092159] (-) TimerEvent: {}
+[22.193420] (-) TimerEvent: {}
+[22.295336] (-) TimerEvent: {}
+[22.307497] (custom_messages) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[22.395551] (-) TimerEvent: {}
+[22.427268] (custom_messages) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.495795] (-) TimerEvent: {}
+[22.575073] (custom_messages) StdoutLine: {'line': b'[ 53%] Built target custom_messages__rosidl_typesupport_introspection_cpp\n'}
+[22.596177] (-) TimerEvent: {}
+[22.597929] (custom_messages) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.646799] (custom_messages) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.696621] (-) TimerEvent: {}
+[22.799864] (-) TimerEvent: {}
+[22.903640] (-) TimerEvent: {}
+[22.999267] (custom_messages) StdoutLine: {'line': b'[ 58%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[23.004041] (-) TimerEvent: {}
+[23.107326] (-) TimerEvent: {}
+[23.184948] (custom_messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/posvel__type_support.c.o\x1b[0m\n'}
+[23.192170] (custom_messages) StdoutLine: {'line': b'[ 61%] Built target custom_messages__rosidl_typesupport_fastrtps_c\n'}
+[23.207544] (-) TimerEvent: {}
+[23.221505] (custom_messages) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[23.307782] (-) TimerEvent: {}
+[23.409379] (-) TimerEvent: {}
+[23.443858] (custom_messages) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.509585] (-) TimerEvent: {}
+[23.593166] (custom_messages) StdoutLine: {'line': b'[ 66%] Built target custom_messages__rosidl_typesupport_introspection_c\n'}
+[23.609759] (-) TimerEvent: {}
+[23.710509] (-) TimerEvent: {}
+[23.811200] (-) TimerEvent: {}
+[23.911924] (-) TimerEvent: {}
+[24.012571] (-) TimerEvent: {}
+[24.113410] (-) TimerEvent: {}
+[24.214527] (-) TimerEvent: {}
+[24.264616] (custom_messages) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/msg/posvel__type_support.cpp.o\x1b[0m\n'}
+[24.265792] (custom_messages) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[24.314802] (-) TimerEvent: {}
+[24.415823] (-) TimerEvent: {}
+[24.433853] (custom_messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.516101] (-) TimerEvent: {}
+[24.609923] (custom_messages) StdoutLine: {'line': b'[ 74%] Built target custom_messages__rosidl_typesupport_c\n'}
+[24.616252] (-) TimerEvent: {}
+[24.704751] (custom_messages) StdoutLine: {'line': b'[ 74%] Built target custom_messages\n'}
+[24.716471] (-) TimerEvent: {}
+[24.800522] (custom_messages) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.816701] (-) TimerEvent: {}
+[24.917630] (-) TimerEvent: {}
+[25.018365] (-) TimerEvent: {}
+[25.119437] (-) TimerEvent: {}
+[25.220984] (-) TimerEvent: {}
+[25.321691] (-) TimerEvent: {}
+[25.422386] (-) TimerEvent: {}
+[25.523077] (-) TimerEvent: {}
+[25.623817] (-) TimerEvent: {}
+[25.724465] (-) TimerEvent: {}
+[25.825132] (-) TimerEvent: {}
+[25.925775] (-) TimerEvent: {}
+[26.026467] (-) TimerEvent: {}
+[26.127160] (-) TimerEvent: {}
+[26.227913] (-) TimerEvent: {}
+[26.328619] (-) TimerEvent: {}
+[26.429346] (-) TimerEvent: {}
+[26.530013] (-) TimerEvent: {}
+[26.630684] (-) TimerEvent: {}
+[26.731323] (-) TimerEvent: {}
+[26.832145] (-) TimerEvent: {}
+[26.933355] (-) TimerEvent: {}
+[27.016200] (custom_messages) StdoutLine: {'line': b'[ 76%] Built target custom_messages__py\n'}
+[27.033549] (-) TimerEvent: {}
+[27.115940] (custom_messages) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_posvel_s.c.o\x1b[0m\n'}
+[27.117123] (custom_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[27.133774] (-) TimerEvent: {}
+[27.235031] (-) TimerEvent: {}
+[27.336070] (-) TimerEvent: {}
+[27.436975] (-) TimerEvent: {}
+[27.538453] (-) TimerEvent: {}
+[27.641477] (-) TimerEvent: {}
+[27.744287] (-) TimerEvent: {}
+[27.798837] (custom_messages) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/libcustom_messages__rosidl_generator_py.so\x1b[0m\n'}
+[27.844495] (-) TimerEvent: {}
+[27.945329] (-) TimerEvent: {}
+[28.000530] (custom_messages) StdoutLine: {'line': b'[ 84%] Built target custom_messages__rosidl_generator_py\n'}
+[28.045580] (-) TimerEvent: {}
+[28.103333] (custom_messages) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.109003] (custom_messages) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.118876] (custom_messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.145905] (-) TimerEvent: {}
+[28.247036] (-) TimerEvent: {}
+[28.348408] (-) TimerEvent: {}
+[28.449452] (-) TimerEvent: {}
+[28.551047] (-) TimerEvent: {}
+[28.652925] (-) TimerEvent: {}
+[28.660003] (custom_messages) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.665096] (custom_messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.712994] (custom_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.753290] (-) TimerEvent: {}
+[28.854343] (-) TimerEvent: {}
+[28.871369] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_c__pyext\n'}
+[28.893428] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[28.931761] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.954600] (-) TimerEvent: {}
+[28.974830] (custom_messages) CommandEnded: {'returncode': 0}
+[29.054776] (-) TimerEvent: {}
+[29.155542] (-) TimerEvent: {}
+[29.256211] (-) TimerEvent: {}
+[29.357195] (-) TimerEvent: {}
+[29.457926] (-) TimerEvent: {}
+[29.470319] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'install'}
+[29.510258] (custom_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdp2024/6dof_arm/build/custom_messages'], 'cwd': '/home/sdp2024/6dof_arm/build/custom_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sdp2024'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdp2024/6dof_arm/install/custom_messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sdp2024'), ('OLDPWD', '/home/sdp2024/6dof_arm/src/robot/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sdp2024/6dof_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdp2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sdp2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sdp2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sdp2024:@/tmp/.ICE-unix/1171,unix/sdp2024:/tmp/.ICE-unix/1171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dba4b30_70c5_488f_8a83_8d79db04460e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRFFD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/robot:/home/sdp2024/6dof_arm/install/custom_messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sdp2024/6dof_arm/build/custom_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sdp2024/6dof_arm/install/custom_messages:/home/sdp2024/6dof_arm/install/robot:/opt/ros/humble')]), 'shell': False}
+[29.546356] (custom_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.547344] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/rosidl_interfaces/custom_messages\n'}
+[29.548656] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.549432] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.550054] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/posvel.h\n'}
+[29.551087] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.551786] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__functions.h\n'}
+[29.552897] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__functions.c\n'}
+[29.554042] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.h\n'}
+[29.555127] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__struct.h\n'}
+[29.556194] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.557260] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.557843] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.558193] (-) TimerEvent: {}
+[29.558621] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__functions.c\n'}
+[29.559842] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__struct.h\n'}
+[29.560917] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__functions.h\n'}
+[29.562190] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.h\n'}
+[29.563226] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/add_three_ints.h\n'}
+[29.564743] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/library_path.sh\n'}
+[29.566037] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/library_path.dsv\n'}
+[29.567489] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so\n'}
+[29.570063] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so" to ""\n'}
+[29.570710] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.571193] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.571566] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.571869] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_fastrtps_c.h\n'}
+[29.572762] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.574070] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.574542] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.574984] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[29.576357] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[29.579139] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.579667] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.580103] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.580483] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/posvel.hpp\n'}
+[29.581165] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.581632] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__builder.hpp\n'}
+[29.582776] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__traits.hpp\n'}
+[29.583838] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__struct.hpp\n'}
+[29.584971] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.585743] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/add_three_ints.hpp\n'}
+[29.586566] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.587204] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__struct.hpp\n'}
+[29.588527] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__builder.hpp\n'}
+[29.590186] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__traits.hpp\n'}
+[29.591894] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.592442] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.592853] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.593344] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/dds_fastrtps\n'}
+[29.593972] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.595600] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.596802] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.597421] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.597874] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/dds_fastrtps\n'}
+[29.598444] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.600164] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.602825] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.603567] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.604001] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.604371] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.605230] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.605758] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.c\n'}
+[29.607076] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_introspection_c.h\n'}
+[29.608126] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.608588] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.608978] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.c\n'}
+[29.610512] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[29.611977] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so\n'}
+[29.615352] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.618677] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so\n'}
+[29.621643] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so" to ""\n'}
+[29.622420] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages\n'}
+[29.622911] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[29.623298] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[29.623619] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.624706] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.cpp\n'}
+[29.625867] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[29.626350] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[29.626723] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.cpp\n'}
+[29.628033] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.629522] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[29.631901] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.632393] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so\n'}
+[29.634897] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[29.635405] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/pythonpath.sh\n'}
+[29.636400] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/pythonpath.dsv\n'}
+[29.637531] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info\n'}
+[29.638580] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[29.639761] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[29.640807] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[29.641982] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[29.643166] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages\n'}
+[29.644046] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.645512] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg\n'}
+[29.646176] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_posvel_s.c\n'}
+[29.647321] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_posvel.py\n'}
+[29.648484] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py\n'}
+[29.649452] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv\n'}
+[29.650153] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_add_three_ints.py\n'}
+[29.651312] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py\n'}
+[29.652345] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_add_three_ints_s.c\n'}
+[29.653556] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.654991] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.656173] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py\n'}
+[29.657145] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c\n'}
+[29.658315] (-) TimerEvent: {}
+[29.658768] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.659915] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.661395] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/libcustom_messages__rosidl_generator_py.so\n'}
+[29.758505] (-) TimerEvent: {}
+[29.842148] (custom_messages) StdoutLine: {'line': b"Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages'...\n"}
+[29.843559] (custom_messages) StdoutLine: {'line': b"Compiling '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py'...\n"}
+[29.844629] (custom_messages) StdoutLine: {'line': b"Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg'...\n"}
+[29.845945] (custom_messages) StdoutLine: {'line': b"Compiling '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py'...\n"}
+[29.846957] (custom_messages) StdoutLine: {'line': b"Compiling '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_posvel.py'...\n"}
+[29.847981] (custom_messages) StdoutLine: {'line': b"Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv'...\n"}
+[29.848745] (custom_messages) StdoutLine: {'line': b"Compiling '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py'...\n"}
+[29.849864] (custom_messages) StdoutLine: {'line': b"Compiling '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_add_three_ints.py'...\n"}
+[29.859025] (-) TimerEvent: {}
+[29.869644] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.872458] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.874059] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.876793] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.878322] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[29.880898] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[29.881443] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so\n'}
+[29.883900] (custom_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so" to ""\n'}
+[29.884522] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/msg/Posvel.idl\n'}
+[29.886020] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts.idl\n'}
+[29.887372] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/msg/Posvel.msg\n'}
+[29.888661] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts.srv\n'}
+[29.890486] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts_Request.msg\n'}
+[29.892106] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts_Response.msg\n'}
+[29.894078] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages\n'}
+[29.896204] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages\n'}
+[29.897605] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh\n'}
+[29.898972] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv\n'}
+[29.900203] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/path.sh\n'}
+[29.901392] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/path.dsv\n'}
+[29.902606] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.bash\n'}
+[29.903794] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.sh\n'}
+[29.905030] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.zsh\n'}
+[29.906227] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.dsv\n'}
+[29.907350] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.dsv\n'}
+[29.908865] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/packages/custom_messages\n'}
+[29.910750] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake\n'}
+[29.912114] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.913717] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.916106] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.920399] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cppExport.cmake\n'}
+[29.922431] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.924109] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.925823] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.927293] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.928704] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake\n'}
+[29.930271] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.931643] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.933124] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.934573] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake\n'}
+[29.935930] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.937380] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake\n'}
+[29.938781] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.940070] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[29.941279] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.942568] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.943807] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.945083] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.946477] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.947755] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.949015] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake\n'}
+[29.950050] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake\n'}
+[29.951188] (custom_messages) StdoutLine: {'line': b'-- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.xml\n'}
+[29.958457] (custom_messages) CommandEnded: {'returncode': 0}
+[29.960203] (-) TimerEvent: {}
+[30.060801] (-) TimerEvent: {}
+[30.161790] (-) TimerEvent: {}
+[30.262771] (-) TimerEvent: {}
+[30.363665] (-) TimerEvent: {}
+[30.464787] (-) TimerEvent: {}
+[30.565479] (-) TimerEvent: {}
+[30.666324] (-) TimerEvent: {}
+[30.766995] (-) TimerEvent: {}
+[30.871037] (-) TimerEvent: {}
+[30.972298] (-) TimerEvent: {}
+[31.072953] (-) TimerEvent: {}
+[31.174269] (-) TimerEvent: {}
+[31.249481] (custom_messages) JobEnded: {'identifier': 'custom_messages', 'rc': 0}
+[31.252273] (-) EventReactorShutdown: {}

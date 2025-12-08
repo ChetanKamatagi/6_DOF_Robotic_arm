@@ -1,0 +1,4 @@
+Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages
+Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages

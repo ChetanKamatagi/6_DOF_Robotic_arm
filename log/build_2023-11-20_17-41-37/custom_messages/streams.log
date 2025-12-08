@@ -1,0 +1,179 @@
+[1.408s] Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+[2.313s] [  2%] Built target custom_messages__cpp
+[2.441s] [ 12%] Built target custom_messages__rosidl_generator_c
+[2.537s] [ 12%] Built target ament_cmake_python_copy_custom_messages
+[2.736s] [ 23%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp
+[2.753s] [ 33%] Built target custom_messages__rosidl_typesupport_cpp
+[2.800s] [ 43%] Built target custom_messages__rosidl_typesupport_introspection_cpp
+[2.868s] [ 53%] Built target custom_messages__rosidl_typesupport_fastrtps_c
+[3.085s] [ 64%] Built target custom_messages__rosidl_typesupport_introspection_c
+[3.153s] [ 74%] Built target custom_messages__rosidl_typesupport_c
+[3.391s] [ 74%] Built target custom_messages
+[3.622s] [ 76%] Built target custom_messages__py
+[3.878s] [ 84%] Built target custom_messages__rosidl_generator_py
+[4.188s] [ 89%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext
+[4.283s] [ 94%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext
+[4.301s] [100%] Built target custom_messages__rosidl_typesupport_c__pyext
+[5.559s] running egg_info
+[5.791s] writing custom_messages.egg-info/PKG-INFO
+[5.799s] writing dependency_links to custom_messages.egg-info/dependency_links.txt
+[5.805s] writing top-level names to custom_messages.egg-info/top_level.txt
+[6.546s] reading manifest file 'custom_messages.egg-info/SOURCES.txt'
+[6.555s] writing manifest file 'custom_messages.egg-info/SOURCES.txt'
+[6.861s] [100%] Built target ament_cmake_python_build_custom_messages_egg
+[6.958s] Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+[7.803s] Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages
+[7.873s] -- Install configuration: ""
+[7.881s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/rosidl_interfaces/custom_messages
+[7.885s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[7.887s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[7.889s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/posvel.h
+[7.890s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[7.891s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__functions.h
+[7.892s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__functions.c
+[7.893s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.h
+[7.893s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__struct.h
+[7.894s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_c__visibility_control.h
+[7.894s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[7.899s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[7.902s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__functions.c
+[7.914s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__struct.h
+[7.916s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__functions.h
+[7.918s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.h
+[7.920s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/add_three_ints.h
+[7.925s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/library_path.sh
+[7.932s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/library_path.dsv
+[7.950s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so
+[7.952s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[7.954s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[7.954s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[7.955s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_fastrtps_c.h
+[7.956s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.956s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[7.957s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[7.963s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[7.965s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so
+[7.966s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[7.969s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[7.970s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/posvel.hpp
+[7.983s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[7.996s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__builder.hpp
+[7.997s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__traits.hpp
+[7.999s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__struct.hpp
+[8.002s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[8.011s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/add_three_ints.hpp
+[8.012s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[8.013s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__struct.hpp
+[8.014s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__builder.hpp
+[8.015s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__traits.hpp
+[8.015s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[8.016s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[8.016s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[8.018s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/dds_fastrtps
+[8.019s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_fastrtps_cpp.hpp
+[8.023s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.028s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[8.030s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[8.034s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/dds_fastrtps
+[8.036s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.038s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so
+[8.044s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[8.045s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[8.046s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.049s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[8.052s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.c
+[8.054s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_introspection_c.h
+[8.055s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[8.055s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[8.056s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.c
+[8.057s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[8.058s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so
+[8.059s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so
+[8.061s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages
+[8.062s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg
+[8.069s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[8.070s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__rosidl_typesupport_introspection_cpp.hpp
+[8.070s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/msg/detail/posvel__type_support.cpp
+[8.072s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv
+[8.073s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[8.074s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__type_support.cpp
+[8.088s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/include/custom_messages/custom_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.093s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so
+[8.094s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so
+[8.095s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/pythonpath.sh
+[8.096s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/pythonpath.dsv
+[8.097s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info
+[8.098s] -- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.098s] -- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.099s] -- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/top_level.txt
+[8.099s] -- Installing: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[8.101s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages
+[8.103s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.104s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg
+[8.105s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_posvel_s.c
+[8.106s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_posvel.py
+[8.106s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py
+[8.107s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv
+[8.108s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_add_three_ints.py
+[8.109s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py
+[8.111s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_add_three_ints_s.c
+[8.111s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.112s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.112s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py
+[8.113s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c
+[8.113s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.114s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c
+[8.115s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/libcustom_messages__rosidl_generator_py.so
+[8.442s] Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages'...
+[8.444s] Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg'...
+[8.446s] Listing '/home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv'...
+[8.514s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.519s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.523s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.527s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so
+[8.532s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/msg/Posvel.idl
+[8.540s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts.idl
+[8.545s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/msg/Posvel.msg
+[8.550s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts.srv
+[8.557s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts_Request.msg
+[8.559s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/srv/AddThreeInts_Response.msg
+[8.561s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages
+[8.561s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages
+[8.562s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh
+[8.563s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv
+[8.565s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/path.sh
+[8.567s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/environment/path.dsv
+[8.568s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.bash
+[8.569s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.sh
+[8.569s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.zsh
+[8.570s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/local_setup.dsv
+[8.572s] -- Installing: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.dsv
+[8.572s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/ament_index/resource_index/packages/custom_messages
+[8.573s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake
+[8.589s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake
+[8.593s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[8.597s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.599s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cppExport.cmake
+[8.603s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.605s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.605s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake
+[8.606s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.607s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake
+[8.608s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake
+[8.609s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake
+[8.610s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.611s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake
+[8.611s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[8.612s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake
+[8.613s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake
+[8.616s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake-extras.cmake
+[8.616s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.617s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[8.618s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_targets-extras.cmake
+[8.619s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.620s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.620s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.621s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake
+[8.622s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake
+[8.623s] -- Up-to-date: /home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.xml
+[8.627s] Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages

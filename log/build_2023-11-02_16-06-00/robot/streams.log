@@ -1,0 +1,43 @@
+[6.532s] Invoking command in '/home/sdp2024/6dof_arm/src/robot': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed
+[7.691s] running egg_info
+[7.783s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[7.786s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[7.788s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[7.790s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[7.792s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[7.964s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[7.969s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[7.970s] running build
+[7.971s] running build_py
+[7.974s] copying robot/sub_n.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[7.976s] copying robot/pub.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[7.978s] running install
+[7.981s] /home/sdp2024/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[7.981s] !!
+[7.982s] 
+[7.982s]         ********************************************************************************
+[7.982s]         Please avoid running ``setup.py`` directly.
+[7.983s]         Instead, use pypa/build, pypa/installer or other
+[7.983s]         standards-based tools.
+[7.984s] 
+[7.984s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[7.984s]         ********************************************************************************
+[7.985s] 
+[7.985s] !!
+[7.985s]   self.initialize_options()
+[8.006s] running install_lib
+[8.093s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub_n.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[8.095s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/pub.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[8.100s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub_n.py to sub_n.cpython-310.pyc
+[8.108s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/pub.py to pub.cpython-310.pyc
+[8.114s] running install_data
+[8.200s] running install_egg_info
+[8.288s] removing '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[8.290s] Copying ../../build/robot/robot.egg-info to /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[8.298s] running install_scripts
+[9.148s] Installing gui script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[9.150s] Installing ikine script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[9.151s] Installing pub script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[9.152s] Installing sub_n script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[9.155s] writing list of installed files to '/home/sdp2024/6dof_arm/build/robot/install.log'
+[9.310s] Invoked command in '/home/sdp2024/6dof_arm/src/robot' returned '0': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed

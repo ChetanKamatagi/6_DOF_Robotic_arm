@@ -1,0 +1,198 @@
+[7.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9080a920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9080a4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9080a4d0>>)
+[7.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.571s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sdp2024/6dof_arm'
+[7.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.660s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.660s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.660s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[7.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore'
+[7.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore_ament_install'
+[7.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_pkg']
+[7.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_pkg'
+[7.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_meta']
+[7.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_meta'
+[7.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ros']
+[7.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ros'
+[7.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[7.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[7.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[7.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[7.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[7.684s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[7.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.464s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[8.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.893s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[8.893s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[8.893s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.893s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[8.894s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[8.894s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[8.894s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[8.894s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[8.894s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.894s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdp2024/6dof_arm/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdp2024/6dof_arm/install/custom_messages', 'merge_install': False, 'path': '/home/sdp2024/6dof_arm/src/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[8.973s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[8.973s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[8.973s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.973s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[8.973s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[8.974s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[8.974s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[8.974s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[8.974s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.974s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdp2024/6dof_arm/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdp2024/6dof_arm/install/robot', 'merge_install': False, 'path': '/home/sdp2024/6dof_arm/src/robot', 'symlink_install': False, 'test_result_base': None}
+[9.065s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdp2024/6dof_arm/src/custom_messages' with build type 'ament_cmake'
+[9.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdp2024/6dof_arm/src/custom_messages'
+[9.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.833s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sdp2024/6dof_arm/src/robot' with build type 'ament_python'
+[9.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[10.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[10.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[10.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/ament_prefix_path.sh'
+[10.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+[13.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sdp2024/6dof_arm/src/robot'
+[14.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdp2024/6dof_arm/build/custom_messages -- -j4 -l4
+[16.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdp2024/6dof_arm/build/custom_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages
+[17.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[17.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdp2024/6dof_arm/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdp2024/6dof_arm/build/custom_messages
+[18.049s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages' for CMake module files
+[18.057s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages' for CMake config files
+[18.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[18.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[18.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[18.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[18.295s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib'
+[18.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[18.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[18.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[18.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[18.503s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/bin'
+[18.504s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[18.506s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib/python3.10/site-packages'
+[18.508s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/bin'
+[18.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.ps1'
+[18.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.dsv'
+[18.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.sh'
+[18.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.bash'
+[18.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.zsh'
+[18.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdp2024/6dof_arm/install/custom_messages/share/colcon-core/packages/custom_messages)
+[19.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[19.958s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages' for CMake module files
+[19.968s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages' for CMake config files
+[19.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[20.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[20.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[20.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[20.214s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib'
+[20.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[20.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[20.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[20.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[20.465s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/bin'
+[20.466s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[20.467s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/lib/python3.10/site-packages'
+[20.468s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/custom_messages/bin'
+[20.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.ps1'
+[20.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.dsv'
+[20.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.sh'
+[20.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.bash'
+[20.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/custom_messages/share/custom_messages/package.zsh'
+[20.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdp2024/6dof_arm/install/custom_messages/share/colcon-core/packages/custom_messages)
+[21.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdp2024/6dof_arm/src/robot': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed
+[27.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdp2024/6dof_arm/src/robot' returned '0': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed
+[27.532s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot' for CMake module files
+[27.535s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot' for CMake config files
+[27.540s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot/lib'
+[27.541s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot/bin'
+[27.541s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot/lib/pkgconfig/robot.pc'
+[27.542s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages'
+[27.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[27.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/pythonpath.ps1'
+[27.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/pythonpath.dsv'
+[27.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdp2024/6dof_arm/install/robot/share/robot/hook/pythonpath.sh'
+[27.695s] Level 1:colcon.colcon_core.environment:checking '/home/sdp2024/6dof_arm/install/robot/bin'
+[27.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[27.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/robot/share/robot/package.ps1'
+[27.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdp2024/6dof_arm/install/robot/share/robot/package.dsv'
+[27.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/robot/share/robot/package.sh'
+[27.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/robot/share/robot/package.bash'
+[27.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdp2024/6dof_arm/install/robot/share/robot/package.zsh'
+[27.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdp2024/6dof_arm/install/robot/share/colcon-core/packages/robot)
+[27.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.851s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.096s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.252s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdp2024/6dof_arm/install/local_setup.ps1'
+[28.472s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdp2024/6dof_arm/install/_local_setup_util_ps1.py'
+[28.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdp2024/6dof_arm/install/setup.ps1'
+[28.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdp2024/6dof_arm/install/local_setup.sh'
+[28.772s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdp2024/6dof_arm/install/_local_setup_util_sh.py'
+[28.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdp2024/6dof_arm/install/setup.sh'
+[28.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdp2024/6dof_arm/install/local_setup.bash'
+[28.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdp2024/6dof_arm/install/setup.bash'
+[28.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdp2024/6dof_arm/install/local_setup.zsh'
+[28.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdp2024/6dof_arm/install/setup.zsh'

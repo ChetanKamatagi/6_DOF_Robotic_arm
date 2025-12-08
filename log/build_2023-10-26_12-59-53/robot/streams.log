@@ -1,0 +1,64 @@
+[4.846s] Invoking command in '/home/sdp2024/6dof_arm/src/robot': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed
+[6.324s] running egg_info
+[6.326s] creating ../../build/robot/robot.egg-info
+[6.327s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[6.328s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[6.329s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[6.329s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[6.330s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[6.331s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[6.344s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[6.348s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[6.349s] running build
+[6.349s] running build_py
+[6.350s] creating /home/sdp2024/6dof_arm/build/robot/build
+[6.351s] creating /home/sdp2024/6dof_arm/build/robot/build/lib
+[6.352s] creating /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.352s] copying robot/gui3.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.353s] copying robot/gui2.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.354s] copying robot/__init__.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.355s] copying robot/sub_n.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.356s] copying robot/gui.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.356s] copying robot/cam.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.357s] copying robot/sub.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.358s] copying robot/pub.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.358s] copying robot/ikine.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.359s] copying robot/ik.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+[6.360s] running install
+[6.361s] running install_lib
+[6.365s] creating /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.366s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui3.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.367s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui2.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.369s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/__init__.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.373s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub_n.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.375s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.377s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/cam.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.378s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.379s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/pub.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.380s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/ikine.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.380s] copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/ik.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+[6.383s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui3.py to gui3.cpython-310.pyc
+[6.389s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui2.py to gui2.cpython-310.pyc
+[6.398s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[6.399s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub_n.py to sub_n.cpython-310.pyc
+[6.404s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui.py to gui.cpython-310.pyc
+[6.407s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/cam.py to cam.cpython-310.pyc
+[6.408s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub.py to sub.cpython-310.pyc
+[6.411s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/pub.py to pub.cpython-310.pyc
+[6.414s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/ikine.py to ikine.cpython-310.pyc
+[6.418s] byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/ik.py to ik.cpython-310.pyc
+[6.421s] running install_data
+[6.424s] creating /home/sdp2024/6dof_arm/install/robot/share/ament_index
+[6.425s] creating /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index
+[6.425s] creating /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index/packages
+[6.426s] copying resource/robot -> /home/sdp2024/6dof_arm/install/robot/share/ament_index/resource_index/packages
+[6.426s] copying package.xml -> /home/sdp2024/6dof_arm/install/robot/share/robot
+[6.427s] running install_egg_info
+[6.433s] Copying ../../build/robot/robot.egg-info to /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[6.445s] running install_scripts
+[6.531s] Installing gui script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[6.532s] Installing ikine script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[6.533s] Installing pub script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[6.533s] Installing sub_n script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+[6.536s] writing list of installed files to '/home/sdp2024/6dof_arm/build/robot/install.log'
+[6.726s] Invoked command in '/home/sdp2024/6dof_arm/src/robot' returned '0': PYTHONPATH=/home/sdp2024/6dof_arm/build/robot/prefix_override:/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/sdp2024/6dof_arm/build/robot/build install --record /home/sdp2024/6dof_arm/build/robot/install.log --single-version-externally-managed

@@ -1,0 +1,52 @@
+running egg_info
+writing ../../build/robot/robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+writing requirements to ../../build/robot/robot.egg-info/requires.txt
+writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot/track.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/test3.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/crop_coordinates.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/test2.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/gui2.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/sub_n.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/gui.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/test1.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/detect.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+copying robot/ik.py -> /home/sdp2024/6dof_arm/build/robot/build/lib/robot
+running install
+running install_lib
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/track.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/test3.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/crop_coordinates.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/test2.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui2.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/sub_n.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/gui.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/test1.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/detect.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+copying /home/sdp2024/6dof_arm/build/robot/build/lib/robot/ik.py -> /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/track.py to track.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/test3.py to test3.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/crop_coordinates.py to crop_coordinates.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/test2.py to test2.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui2.py to gui2.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/sub_n.py to sub_n.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/gui.py to gui.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/test1.py to test1.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/detect.py to detect.cpython-310.pyc
+byte-compiling /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot/ik.py to ik.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot/robot.egg-info to /home/sdp2024/6dof_arm/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+Installing ikine script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+Installing pub script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+Installing sub_n script to /home/sdp2024/6dof_arm/install/robot/lib/robot
+writing list of installed files to '/home/sdp2024/6dof_arm/build/robot/install.log'
