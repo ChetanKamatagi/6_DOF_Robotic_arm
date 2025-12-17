@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_messages",
-  "non_idl_tuples": [
-    "/home/sdp2024/6dof_arm/src/custom_messages:msg/Posvel.msg",
-    "/home/sdp2024/6dof_arm/src/custom_messages:srv/AddThreeInts.srv"
-  ]
-}
